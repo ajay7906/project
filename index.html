@@ -58,6 +58,7 @@
             background: linear-gradient(to right, var(--accent-color), var(--primary-color));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            color: transparent;
             animation: fadeIn 2s;
         }
         .logo-nav-container {
@@ -70,6 +71,7 @@
         }
         .logo-nav-container img {
             height: 50px;
+            border-radius: 50%;
         }
         .menu-icon {
             display: none;
@@ -319,7 +321,7 @@
 </head>
 <body>
     <div class="logo-nav-container">
-        <img src="logo.png" alt="Invest-o-Meter Logo" class="animate__animated animate__zoomIn">
+        <img src="./images/logo.png" alt="Invest-o-Meter Logo" class="animate__animated animate__zoomIn">
         <div class="menu-icon" onclick="toggleMobileNav()"><i class="fas fa-bars"></i></div>
         <nav class="animate__animated animate__fadeIn">
             <a href="#about">About</a>
